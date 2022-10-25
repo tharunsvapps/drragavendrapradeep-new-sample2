@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif ;
+
+   
+  }
+  h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'EB Garamond', serif !important;
+
+  }
+body,html{
+    overflow-x: hidden;
+   
+
+}
+
+/* about doctor sec */
+/* .about-doctor-tittle-sec{
+    background: #014ea7;
+    height: 500px;
+}
+.doctor-data-sec{
+  width: 100%;
+} */
+.doctor-main-sec{
+    display: flex;
+    height: 550px;
+    position: relative;
+    
+}
+.abt-docter-heading-sec h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 27px;
+    text-shadow: 3px 1px 3px rgb(255 253 253 / 40%);
+}
+
+.abt-docter-heading-sec h3{
+    font-size: 22px;
+}
+.abt-docter-heading-sec h4{
+    font-size: 18px;
+}
+.flx-text{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: #044081;
+    background-image: lightblue;
+    color: #fff;
+    padding: 0px 30px 0px 60px;
+    background-image: linear-gradient(45deg, black, #9a339b);
+}
+.doctor-data-sec{
+    width: 60%;
+    height: 550px;
+}
+.doctor-data-sec img{
+    width: 100%;
+    height: 100%;
+}
+.doctor-data-main{
+    position: absolute;
+    width: 60%;
+    content: '';
+    top: 8%;
+    right: 8%;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 4px;
+  
+}
+.doctor-data-rw1{
+    display: flex;
+}
+.dct-cnt-item{
+    display: flex;
+    width: 50%;
+  
+}
+.dct-cnt-item h6{
+    font-weight: 800;
+    font-size: 40px;
+    color: #e8e5e5;
+}
+.dct-cnt-inner-item{
+    padding: 0px 0px 0px 10px;
+    margin-right: 10px;
+}
+.dct-cnt-inner-item h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.dct-cnt-inner-item p{
+    font-size: 16px;
+}
+
+/* doctor sepcification sec */
+.spec-item{
+    padding: 45px 30px;
+    text-align: center;
+    color: #fff;
+    height: 300px;
+}
+.spec-item p{
+    font-size: 18px;
+}
+.spec-item h3{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.spec-item1{
+    background-image: linear-gradient(45deg, #d88237,#d88237,#f155ba),url(../images/experience.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+  
+}
+.spec-item2{
+    background-image: linear-gradient(45deg,#5d345f,#5d345f,#c94084),url(../images/education.webp);
+    background-size: cover;
+    background-position: center; 
+    display: grid;
+    place-content: center;  
+
+}
+.spec-item3{
+    background-image: linear-gradient(45deg,#014ea7,#01c5e8),url(../images/clinical.jpg);
+    background-size: cover;
+    background-position: center; 
+    display: grid;
+    place-content: center;
+
+
+}
+.card-padi{
+    padding: 0px !important;
+}
+/* .item3-inner-padi{
+    padding-bottom: 29%;
+} */
+
+/* mr uro sec*/
+.mr-urology-main-sec{
+    padding: 80px 0px;
+    position: relative;
+    background: #f8f9fb;
+    /* background-image: url(../images/pattern-2.png);
+    background-size: cover; */
+
+    /* background: #e8f6ff; */
+}
+.mr-urology-bg1{
+    position: absolute;
+    left: 0px;
+}
+.mr-urology-bg2{
+    position: absolute;
+    right: 0px;
+}
+.uro-img-sec{
+ 
+    position: relative;
+    z-index: 9;
+}
+.uro-img-sec::before{
+    content: '';
+    position: absolute;
+    top: -6%;
+    /* left: -4%; */
+    right: 19%;
+    /* width: 200px; */
+    height: 90%;
+    width: 76%;
+    /* clip-path: polygon(0 28%, 100% 0%, 100% 100%, 0 100%); */
+    /* background: #e0a50c; */
+    /* background-image: linear-gradient(#4d1296,#c2509a); */
+    z-index: -1;
+    border: 3px #dbae29 solid;
+}
+
+/* .uro-img-sec img{
+    width: 100%;
+    height: 100%;
+} */
+/* .uro-bg-img{
+    position: absolute;
+    top: -7%;
+    right: 21%;
+} */
+.uro-img-con{
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    left: -6%;
+    /* right: 16%; */
+    bottom: -6%;
+    border-left: 5px solid #4d1296;
+    padding: 15px 15px 6px 15px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px 0px #ccc;
+}
+
+.uro-img-con h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+.uro-img-con p{
+    text-align: end;
+}
+.mr-urology-cont h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+.mr-urology-cont h4{
+    font-size: 22px;
+}
+.mr-urology-cont p{
+    font-size: 18px;
+}
+.uro-blts i{
+        padding: 9px;
+        background: #eee;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        font-size: 19px;
+        border-radius: 30px;
+        margin-right: 10px;
+}
+.uro-blts i.one{
+    background: #4d1296;
+    color: #fff;
+
+}
+.uro-blts i.two{
+    background: #ffc107;
+  
+}
+.uro-blts i.three{
+    background: #84386c;
+    color: #fff;
+}
+
+
+/* about medical */
+.abt-medical-main{
+    padding: 40px 0px;
+}
+.abt-medical-headings{
+    text-align: center;
+    padding: 0px 100px;
+}
+.abt-medical-headings h2{
+    text-transform: uppercase;
+    text-shadow: 3px 1px 3px rgb(45 45 45 / 45%);
+
+}
+.abt-medical-headings img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.abt-medical-headings p{
+    font-size: 20px;
+}
+.abt-item{
+    border: 3px #df4051 solid;
+    position: relative;
+}
+.abt-item:hover{
+    border: 3px #b6c238 solid;
+    transition: 0.5s;
+}
+.abt-item:hover::after{
+    background: #b6c238;
+    transition: 0.5s;
+
+
+}
+.abt-item p i{
+    position: absolute;
+    z-index: 9;
+    font-size: 38px;
+    margin: 15px;
+    color: #fff;
+}
+
+.abt-card1{
+    position: relative;
+}
+
+.abt-card1::after{
+    content: '';
+    width: 130px;
+    height: 130px;
+    /* background: #2ec8a6; */
+    background-image: linear-gradient(45deg,#d61d58,#f8a43d);
+    position: absolute;
+    top: -1%;
+    left: -1px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+
+}
+.abt-card2::after{
+    content: '';
+    width: 130px;
+    height: 130px;
+    /* background: #2ec8a6; */
+    background-image: linear-gradient(45deg,#762b8a,#d4217c);
+    position: absolute;
+    top: -1%;
+    left: -1px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+
+}
+.abt-card3::after{
+    content: '';
+    width: 130px;
+    height: 130px;
+    /* background: #2ec8a6; */
+    background-image: linear-gradient(45deg,#2ca23f,#c8db29);
+    position: absolute;
+    top: -1%;
+    left: -1px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+
+}
+.abt-item span{
+    position: absolute;
+    content: '';
+    top: 2%;
+    right: 4%;
+    font-size: 130px;
+    color: #2ec8a61f;
+}
+.abt-content{
+    padding: 43px;
+}
+.abt-content h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.abt-content p{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+.abt-content .btm-padding{
+    padding-bottom: 25px;
+}
+
+/* why choose tree sec
+================================== */
+#whychoose-blk {
+    background-image: linear-gradient(45deg,#13afc159,#10dbcb),url(../images/vedio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px 0px;
+  }
+  
+  #whychoose-blk h1 {
+    color: #fff;
+  }
+  
+  #whychoose-blk .tree-img-bg {
+    background-image: url(../images/back_flver.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .bx-1 {
+    margin-top: 150px;
+  }
+  .bx-2 {
+    margin-top: 70px;
+  }
+  
+  .svc_bt{
+    margin-top: 12px;
+  }
+  #whychoose-blk .box {
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      width: 200px;
+      border: 2px solid #fff;
+      / box-shadow: 0 0 5px #555; /
+  }
+  
+  
+  #whychoose-blk .box img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+  @media (max-width: 1300px){
+    #whychoose-blk .box {
+        width: auto;
+    }
+  
+    }
+    #whychoose-blk .box .box-heading {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 25px;
+      left: 0%;
+      background: rgba(48, 39, 94, 0.88);
+      padding: 10px;
+      color: #fff;
+      transition: all 0.3s ease 0s;
+      display: none;
+    }
+  
+    #whychoose-blk .box .title {
+        margin: 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+  
+    #whychoose-blk .box .boxContent {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      left: -100%;
+      padding: 36px 20px;
+      background: rgba(48, 39, 94, 0.88);
+      transition: all 0.3s ease 0s;
+  }
+  #whychoose-blk .box .description {
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+  }
+  
+  .doct_mdoct_mdl_pic img{
+      width: 200px;
+      margin: 0 auto;
+      display: none;
+  }
+  
+  @media (max-width:1200px) {
+    #whychoose-blk .box img {
+      height: 160px;
+  }
+  
+  }
+  @media (max-width:768px) {
+    .bx-1 {
+      margin-top: 0px;
+  }
+  .bx-2 {
+    margin-top: 0px;
+  }
+  #whychoose-blk .box {
+    margin-top: 15px;
+  }
+  .svc_bt{
+    margin-top: 0px;
+  }
+  #whychoose-blk .box img {
+    height: 200px;
+  }
+  .doct_mdl_img{
+    display: none;
+  }
+  .doct_mdoct_mdl_pic img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  #whychoose-blk .box {
+    width: 215px;
+    margin: 8px auto;
+  }
+  #whychoose-blk .tree-img-bg{
+    background-image:none;
+  }
+  .doct_mddoct_mdl_img img{
+    display: none;
+  }
+  }
+  
+
+
+
+/* .mch-uro-image-sec{
+    display: flex;
+}
+.mch-uro-image-sec {
+    padding: 50px 0px;
+    position: relative;
+
+}
+.mch-uro-image-sec img{
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    margin-top: 20px;
+}
+
+.mch-uro-image-sec::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -6%;
+    width: 63%;
+    height: 600px;
+    background-image: url(../images/round-bg.png);
+    background-size: cover;
+    z-index: -1;
+} */
+
+
+
+
+/* am here section start */
+.iam-here-main-sec{
+    background: #f8f1f1eb;
+    padding: 30px 0px;
+}
+.iam-here-main-sec h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 3px rgb(45 45 45 / 35%);
+
+}
+.iam-here-card{
+    display: flex;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 150px;
+    transition: 0.5s;
+    
+}
+.iam-here-card:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #ccc;
+        box-shadow: 0px 0px 20px 0px #ccc;
+        transition: 0.3s;
+        margin-top: -8px;
+
+}
+.iam-here-card-icon img{
+    width: 46px;
+    padding: 4px;
+    border: 2px solid orange;
+    margin-right: 15px;
+
+}
+/* .iam-here-card i{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid orange;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.iam-here-card-content h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: #0e3178;
+}
+.iam-here-card-content p{
+    font-size: 18px;
+    color: #807d7d;
+    line-height: 27px;
+}
+/* footer address sec satrt
+======================================= */
+.footer-address-main{
+    background-image: linear-gradient(#4a2f80,#5c2676);
+    padding: 30px 0px 5px 0px;
+}
+.address-item{
+    display: flex;
+}
+.address-item i{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+}
+.item-breif h4{
+    color: orange;
+    font-size: 17px;
+    margin-left: 12px;
+}
+.item-breif h5{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 12px;
+}
+.address-item .icon-wdth{
+    width: 110px;
+}
+
+.footer-address-main .fotr-btm-col-pad{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* footer sec start
+===================== */
+.footer-main-container{
+    background-image: linear-gradient(#62297e,#000);
+    /* background: #3c3333; */
+    padding: 40px 0px 30px 0px;
+
+    position: relative;
+}
+.footer-heading{
+    color: #fff;
+}
+.footer-heading img{
+    margin: 5px 0px 10px 0px;
+}
+.footer-heading h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+}
+.footer-heading li {
+    /* list-style-type: none; */
+    padding-top: 10px;
+    margin-left: 13px;
+}
+.footer-heading li a{
+    color: #fff;
+}
+.footer-logo {
+    text-align: center;
+}
+.ftr-logo-inner-card{
+    background-image: linear-gradient(#5a2674,#ffffff40);
+    width: 82%;
+    padding: 40px 9px;
+    position: absolute;
+    border-radius: 5px;
+    top: -72%;
+    box-shadow: 0 0 8px 0 rgb(119 94 28 / 30%);
+
+}
+.footer-logo img{
+    width: 150px;
+    height: 160px;
+    background: #f4f0f0;
+    border: 5px #fff solid;
+    border-radius: 50px;
+}
+.footer-logo h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 0px 2px 0px;
+}
+.footer-logo p{
+    color: #fff;
+    /* text-align: end; */
+    margin: -9px;
+}
+.footer-btm-social-links{
+    margin-top: 15px;
+  }
+  .footer-btm-social-links i{
+      color: #fff;
+      font-size: 20px;
+      background: #4187ea;
+      padding: 10px 0px 0px 0px;
+      border-radius: 30px;
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+      text-align: center;
+  }
+  .footer-btm-social-links i.facebook{
+    background: #3864a3;
+
+  }
+  .footer-btm-social-links i.instagram{
+    background-image: linear-gradient(#8247bd,#c04e88,#f8ae0c);
+    
+}
+.footer-btm-social-links i.youtube{
+    background: #ce201f;
+    
+}
+
+
+/* media
+====================================================================================================== */
+
+/*********************************************************991px** */
+
+/* services */
+@media screen and (max-width:1200px){
+    .uro-img-sec::before {
+        right: 4%;
+    }
+}
+
+@media screen and (max-width:991px){
+    /* mr-uro-sec */
+    .uro-img-sec img{
+        width: 70%;
+    }
+    .uro-img-sec::before {
+        right: 24%;
+        width: 68%;
+    }
+    .mr-urology-cont{
+        margin-top: 55px;
+    }
+
+    /* about doctor */
+        .doctor-data-main{
+            position: inherit;
+            top: 0%;
+            right: 0%;
+            padding: 20px 20px;
+            width: 87%;
+
+        }
+        .doctor-data-sec{
+            display: none;
+        }
+        .doctor-data-rw1{
+            display: inherit;
+        }
+        .dct-cnt-item {
+            width: 100%;
+        }
+        .doctor-main-sec {
+            height: 550px;
+        }
+    /* abt mediacl sec */
+    .abt-item {
+        margin-bottom: 10px;
+    }
+    .abt-medical-headings {
+        text-align: center;
+        padding: 0px 9px;
+    }
+    .spec-item {
+        height: 300px;
+    }
+
+
+    /* iam here sec */
+    .iam-here-card {
+        height: auto;
+    }
+
+    /* footer main
+    --------------------------- */
+    .footer-logo{
+        text-align: start;
+    }
+    .footer-logo p{
+        margin: 0px;
+    }
+    .address-item .icon-wdth {
+        width: 40px;
+    }
+    .ftr-logo-inner-card{
+        position: inherit;
+        background-image: none;
+        box-shadow: none;
+        padding: 0px 0px 20px 0px;
+
+    }
+    .footer-heading h3{
+        margin-top: 25px;
+    }
+    .footer-address-main .fotr-btm-col-pad{
+        padding: 0px 0px 8px 15px !important;
+    }
+}
+/*********************************************************768px** */
+
+@media screen and (max-width: 768px){
+    /* about doctor */
+    .doctor-main-sec{
+        display: inherit;
+    }
+    .flx-text {
+        height: auto;
+        width: 100%;
+        padding: 25px 80px ;
+    }
+    .doctor-data-main{
+        width: 100%;
+    }
+    .doctor-main-sec {
+        height: auto;
+    }
+    .dct-cnt-item {
+        padding: 0px 60px;
+    }
+    /* abt medical */
+    .abt-medical-main {
+        padding: 10px 0px;
+    }
+    /* footer sec */
+.address-item .icon-wdth {
+    width: 60px;
+}
+}
+/*********************************************************600px** */
+
+@media screen and (max-width: 600px){
+       /* mr uro sec */
+       .uro-img-sec img {
+        width: 85%;
+    }
+    .uro-img-sec{
+        text-align: center;
+    }
+    .uro-img-sec::before {
+        right: 0%;
+    }
+    .uro-img-con {
+        left: 0%;
+    }
+
+    /* about doctor */
+    .abt-docter-heading-sec h2 {
+        font-size: 22px;
+    }
+    .abt-docter-heading-sec h3 {
+        font-size: 18px;
+    }
+    .abt-docter-heading-sec h4 {
+        font-size: 16px;
+    }
+    .dct-cnt-item {
+        padding: 0px 10px;
+    }
+    .flx-text {
+        padding: 25px 30px;
+    }
+    /* abt mediacl */
+    .abt-medical-headings h2 {
+        font-size: 20px;
+    }
+    .abt-medical-headings img {
+        width: 120px;
+        margin-bottom: 15px   
+     }
+     .abt-medical-headings p {
+        font-size: 17px;
+    }
+    .abt-medical-headings {
+        padding: 0px 0px;
+    }
+    /* iam here sec */
+    .iam-here-main-sec h2 {
+    font-size: 23px;
+    }
+
+    /* footer sec */
+.section_A::after {
+    border-bottom-left-radius: 0px !important;
+
+}
+.email_bar h2 {
+    font-size: 23px;
+}
+}
+
+/***********************************************************475px** */
+
+@media screen and (max-width: 475px){
+
+ 
+
+    /* about doctor */
+    .dct-cnt-item {
+        padding: 0px 0px;
+    }
+/* footer sec */
+.address-item .icon-wdth {
+    width: 75px;
+}
+.email_bar h2 {
+    font-size: 18px;
+}
+}
+/************************************************************375px** */
+@media screen and (max-width: 375px){
+    /* footer sec */
+.address-item .icon-wdth {
+    width: 90px;
+}
+}
+
+
